@@ -1,0 +1,137 @@
+body
+{
+	font-size: 16px;
+	background-color: #61122f;
+	color: #fff;
+	font-family: 'Oxygen', sans-serif;
+}
+#header-nav .navbar-brand {
+    position: absolute;
+    left: 10px;
+}
+
+#header-nav{
+background-color: #FF9933;
+border-radius: 0;
+border: 0;
+}
+p{
+	margin: 0 15px 0;
+	width: 100%;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1{ /*Restaurant name*/
+	font-family: 'Lora', serif;
+	color: #E0E0E0;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p{ /*Kosher cert*/
+color: #000;
+text-transform: uppercase;
+font-size: .7em;
+margin-top: 15px;
+}
+
+#nav-list{
+	margin-top: 10px;
+
+}
+#nav-list a{
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+
+.navbar-header button.collapse-toggle, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+.navbar-header button.collapse-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+/*End Header*/
+/*main content*/
+#sec1{
+	background-color: #D8EC22;
+	overflow: hidden;
+	color: #000;
+}
+
+#sec2{
+	background-color: #FFCC99;
+	overflow: hidden;
+	color: #000;
+}
+#sec3{
+	background-color: #CCFFCC;
+	overflow: hidden;
+	color: #000;
+}
+
+
+/*----------Extra Small Devices-------------*/
+@media (max-width: 767px){
+
+	/*header*/
+	.navbar-brand{
+		padding-top: 10px;
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw; /* 1vw=1% of viewport width*/
+	}
+    .navbar-brand p{
+    	font-size: .6em;
+    	margin-top: 12px;
+    }
+    .navbar-brand p img{
+    	height: 20px;
+    }
+
+
+	#collapsable-nav a{
+		font-size: 1.2em;
+	}
+	#collapsable-nav a span{
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+
+
+/*End Header*/
+	
+}
+/*footer*/
+#foot{
+	background-color: #000;
+}
+footer >div{
+	color: #fff;
+}
+
+/*----------Super Extra Small Devices-------------*/
+@media (max-width: 479px){
+	/*Header*/
+	.navbar-brand h1{
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+
+}
